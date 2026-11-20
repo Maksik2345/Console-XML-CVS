@@ -31,7 +31,7 @@ public class CsvDataParser implements DataParser{
                 }
             }
 
-            ArrayList<DataRecord> records = new ArrayList<DataRecord>();
+            List<DataRecord> records = new ArrayList<DataRecord>();
 
             for (CSVRecord row : parser) {
                 records.add(parseRecord(row));
